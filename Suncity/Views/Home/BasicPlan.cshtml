@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "BuyNow";
+    Layout = "~/Views/Shared/_Suncity-Layout.cshtml";
+}
+
+    <div class="container">
+        <h2>BuyNow</h2>
+
+        <table class="table table-bordered">
+            <tr>
+                <th>Appliances</th>
+                <th>1KVA </th>
+                <th>1.5KVA </th>
+                <th>2KVA </th>
+            </tr>
+            <tr>
+                <td>Energy Saving Bulb</td>
+                <td>3</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>LCD or Plasma</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td>Ceiling or Standing</td>
+                <td>1</td>
+                <td>2</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Decoder</td>
+                <td><i class="fa fa-check" aria-hidden="true" style="color:lightblue"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td>Home Theater</td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td>Charging of Phones</td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td>Computer</td>
+                <td>--</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <a href="~/Content/assets/images/panel1kva.jpg" target="_blank">
+                    <img src="~/Content/assets/images/panel1kva.jpg" /></a>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+               <td></td>
+                <td><a href="@Url.Action("Login","CustomerAccount")" class="btn btn-info">Buy Now</a></td>
+                <td><a href="@Url.Action("Login","CustomerAccount")" class="btn btn-info">Buy Now</a></td>
+                <td><a href="@Url.Action("Login","CustomerAccount")" class="btn btn-info">Buy Now</a></td>
+            </tr>
+        </table>
+    </div>

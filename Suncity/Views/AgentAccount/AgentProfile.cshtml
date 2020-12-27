@@ -1,0 +1,117 @@
+﻿@model Suncity.Models.Agent
+
+@{
+    ViewBag.Title = "AgentProfile";
+    Layout = "~/Views/Shared/_Agent-Layout.cshtml";
+}
+
+<h2>Agent Profile</h2>
+<p> @Html.DisplayFor(model => model.FirstName)  @Html.DisplayFor(model => model.SurName)</p>
+
+<div>
+    
+    <dl class="dl-horizontal">
+        
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OtherName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OtherName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Occupation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Occupation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RelationshipStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RelationshipStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StateOfOrigin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StateOfOrigin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AgentId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

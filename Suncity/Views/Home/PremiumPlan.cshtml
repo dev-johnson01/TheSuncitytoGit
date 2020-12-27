@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewBag.Title = "BuyNow";
+    Layout = "~/Views/Shared/_Suncity-Layout.cshtml";
+}
+
+<div class="container">
+    <h2>Premium Plan</h2>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Appliances</th>
+            <th>4.5KVA </th>
+            <th>5KVA </th>
+            <th>7KVA </th>
+            <th>10KVA </th>
+
+        </tr>
+        <tr>
+            <td>Energy Saving Bulb</td>
+            <td>10</td>
+            <td>10</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>LCD or Plasma</td>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td>Ceiling or Standing</td>
+            <td>4</td>
+            <td>2</td>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Decoder</td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+        </tr>
+        <tr>
+            <td>Home Theater</td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+        </tr>
+        <tr>
+            <td>Charging of Phones</td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+            <td><span class="fa fa-check" aria-hidden="true"></span></td>
+        </tr>
+        <tr>
+            <td>Computer</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+
+        </tr>
+        <tr>
+            <td>Refrigerator</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+
+        </tr>
+
+        <tr>
+            <td>Freezer</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+
+        </tr>
+        <tr>
+            <td>Air Condition</td>
+            <td>--</td>
+            <td>--</td>
+            <td>1</td>
+            <td>1</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <a href="~/Content/assets/images/solarpanel5kva.jpg" target="_blank"><img src="~/Content/assets/images/solarpanel5kva.jpg" /></a>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+                <a href="~/Content/assets/images/panel3.5kva.jpg" target="_blank"><img src="~/Content/assets/images/panel3.5kva.jpg" /></a>
+            </td>
+        </tr>
+        <tr>
+
+            <td></td>
+
+            <td><a href="@Url.Action("Login","CustomerAccount")" class="btn btn-info">Buy Now</a></td>
+            <td><a href="@Url.Action("Login","CustomerAccount")" class="btn btn-info">Buy Now</a></td>
+            <td><a href="@Url.Action("Login","CustomerAccount")" class="btn btn-info">Buy Now</a></td>
+            <td><a href="@Url.Action("Login","CustomerAccount")" class="btn btn-info">Buy Now</a></td>
+        </tr>
+    </table>
+</div>
